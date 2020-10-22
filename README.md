@@ -1,3 +1,4 @@
+#Military Object Real-Time Detection for Smart Surveillance
 
 
 ## Brief Summary
@@ -11,18 +12,22 @@ We use “Fatkun Batch Download Image” to download google images
 <p align="center">
   <img src="C:/Users/Dell/Pictures/Screenshots/Screenshot (179).png">
 </p>
+
 ### 2.Normalization of dataset
 Normalization done to m ake sure the images aren’t too large. They should be less than 200KB each, and their resolution shouldn’t be more than 800x600
 <p align="center">
   <img src="C:/Users/Dell/Desktop/project/screenshot/transform_image_resolution.png">
 </p>
+
 ### 3.Label Pictures
 With all the pictures gathered, it’s time to label the desired objects in every picture. LabelImg is a great tool for labeling images.
 <p align="center">
   <img src="C:/Users/Dell/Pictures/Screenshots/Screenshot (80).png">
 </p>
+
 ### 4.Configure TensorFlow Directory, Environments, model etc.
 The TensorFlow Object Detection API requires using the specific directory structure provided in its GitHub repository. It also requires several additional Python packages, specific additions to the PATH and PYTHONPATH variables, and a few extra setup commands to get everything set up to run or train an object detection model.
+
 ### 5.Run the training
 You can view the progress of the training job by using TensorBoard.
 The TensorBoard page provides information and graphs that show how the training is progressing. One important graph is the Loss graph, which shows the overall loss of the classifier over time.
@@ -32,6 +37,7 @@ The TensorBoard page provides information and graphs that show how the training 
 <p align="center">
   <img src="C:/Users/Dell/Pictures/Screenshots/Screenshot (127).png">
 </p>
+
 ### 6.Use Your Newly Trained Object Detection Classifier!
 The object detection classifier is all ready to go!
 <p align="center">
