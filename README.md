@@ -1,4 +1,4 @@
-#Military Object Real-Time Detection for Smart Surveillance
+# Military Object Real-Time Detection for Smart Surveillance
 
 
 ## Brief Summary
